@@ -5,4 +5,4 @@ cache_dir=$2
 script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 mkdir -p $1/.profile.d/
-cp $script_dir/../support/runtime-netrc.sh $1/.profile.d/
+cp $script_dir/support/runtime-netrc.sh $1/.profile.d/
